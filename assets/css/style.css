@@ -58,6 +58,10 @@
     margin: 16px 0;
     border-radius: 2px;
     border: none;
+    text-align: center;
+    /* render on safari */
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .buy-tickets:hover,
@@ -114,6 +118,7 @@ html {
 #nav > li > a {
     color: white;
     text-transform: uppercase;
+    width: 100%;
 }
 
 #nav li a {
@@ -130,12 +135,14 @@ html {
     position: relative;
     top: 1px;
 }
-
+#header .menu-btn,
 #header .search-btn {
+    text-align: center;
     cursor: pointer;
     float: right;
     line-height: 46px;
     padding: 0 23px;
+    color: #fff;
 }
 
 #header .search-btn:hover {
@@ -143,8 +150,16 @@ html {
     background-color: #f44336;
 }
 
-#header .search-icon {
-    color: white;
+#header .menu-btn {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#header .menu-btn:hover {
+    background-color: #ccc;
+    color: #000;
 }
 
 #nav .subnav {
@@ -186,7 +201,7 @@ html {
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url(https://www.w3schools.com/w3images/chicago.jpg) top center / cover no-repeat;
+    background: url(../img/banner.jpg) top center / cover no-repeat;
     position: relative;
 }
 
@@ -198,6 +213,7 @@ html {
     transform: translateX(-50%); */
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 1px black;
 }
 
 #slider .text-heading {
@@ -216,6 +232,7 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%; /*responsive */
     margin-left: auto;
     margin-right: auto;
     padding: 64px 16px;
@@ -242,6 +259,7 @@ html {
 }
 
 #content .about-text {
+    line-height: 1.5;
     text-align: justify;
     margin: 15px 0;
     font-size: 15px;
@@ -353,6 +371,13 @@ html {
     width: 30px;
     /* thêm block để sử dụng được width */
     display: inline-block; 
+}
+.contact-info a {
+    color: #0408ee;
+    opacity: 0.8;
+}
+.contact-info a:hover {
+    opacity: 1;
 }
 .contact-form .input-form{
     font-size: 15px;
