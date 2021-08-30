@@ -262,7 +262,7 @@ html {
 
 #content .about-text {
     line-height: 1.5;
-    text-align: justify;
+    text-align: center;
     margin: 15px 0;
     font-size: 15px;
 }
