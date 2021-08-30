@@ -122,9 +122,10 @@ html {
 }
 
 #nav li a {
+    align-items: center;
     text-decoration: none;
     line-height: 46px;
-    padding: 0 24px;
+    padding: 0 16px;
     font-size: 15px;
     /* mặc định thẻ a chỉ là "display: inline" thôi, mà inline thì không có tính chất reset chiều rộng và cao nên nó mất đi ăn theo line-height, nên phải thêm inline-block để nó ăn theo chiều cao của line-height là 46px */
     display: inline-block;
