@@ -200,11 +200,29 @@ html {
 }
 
 #slider {
-    margin-top: 46px;
+    height: 720px;
+    /* margin-top: 46px;
     padding-top: 55%;
     height: 100%;
-    background: url(../img/quang.jpg) top center / cover no-repeat;
+    background: url(../img/quang.jpg) top center / cover no-repeat; */
     position: relative;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.slider_wrap {
+}
+
+.slide_img {
+    /* height: 720px; */
+    position: absolute;
+    top: 46px;
+    /* left: 0; */
+    /* right: 0; */
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
 }
 
 #slider .text-content {
