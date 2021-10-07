@@ -38,6 +38,73 @@
         margin: 0px -8px 16px;
         padding: 32px 0px;
     }
+    #slider .text-content {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        color: #f3003d;
+        opacity: 90%;
+        position: absolute;
+        bottom: 47px;
+        /* left: 50%;
+        transform: translateX(-50%); */
+        width: 100%;
+        text-align: center;
+    }
+    #slider .text-content2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        color: #00becc;
+        opacity: 70%;
+        position: absolute;
+        bottom: 57px;
+        transform: translateX(10px);
+        /* left: 50%;
+        transform: translateX(-50%); */
+        width: 100%;
+        text-align: center;
+    }
+    
+    #slider .text-content .text-heading1 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+        transform: translateX(-100px);
+    }
+    
+    #slider .text-content .text-heading2 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    
+    #slider .text-content .text-heading3 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+        transform: translateX(201px);
+    }
+    
+    #slider .text-content2 .text-heading1 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+        transform: translateX(-100px);
+    }
+    
+    #slider .text-content2 .text-heading2 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+    }
+    
+    #slider .text-content2 .text-heading3 {
+        font-weight: 600;
+        font-size: 6rem;
+        line-height: 6rem;
+        transform: translateX(201px);
+    }
 }
 /* Mobile */
 @media (max-width: 46.1875em) {
@@ -101,5 +168,13 @@
     #contact .contact-form {
         margin-top: 32px;
     }
-    
+    #slider {
+        height: 690px;
+    }
+    #slider .text-content {
+        display: none;
+    }
+    #slider .text-content2 {
+        display: none;
+    }
 }
