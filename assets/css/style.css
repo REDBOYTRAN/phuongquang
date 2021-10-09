@@ -200,7 +200,7 @@ html {
 }
 
 #slider {
-    height: 100vh;
+    height: calc(100vh - 46px);
     /* margin-top: 46px;
     padding-top: 55%;
     height: 100%;
