@@ -169,12 +169,15 @@
         margin-top: 32px;
     }
     #slider {
-        height: 690px;
+        height: 730px;
     }
     #slider .text-content {
         display: none;
     }
     #slider .text-content2 {
         display: none;
+    }
+    .slide_img {
+        object-fit: cover;
     }
 }
